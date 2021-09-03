@@ -1,12 +1,19 @@
 # set up
+on-demand browser IDE environment guide: https://calva.io/get-started-with-clojure/
+- [**START HERE**] browswer ide quick start intro --> https://gitpod.io/#https://github.com/PEZ/get-started-with-clojure
+- browser ide learning clojure guide --> https://github.com/PEZ/rich4clojure
+  - work thru repo full of clojure code exercises
 
-try the install-free guide at https://calva.io/get-started-with-clojure/
+#### linkdump
+- how to set up clojure dev env for athensresearch.org code: https://handbook.athensresearch.org/community/get-involved/setup
+- clojure cheatsheet - https://clojure.org/api/cheatsheet
+- js -> clj translations - https://kanaka.github.io/clojurescript/web/synonym.html
 
-browswer ide quick start intro --> https://gitpod.io/#https://github.com/PEZ/get-started-with-clojure
 
-browser ide learning clojure guide --> https://github.com/PEZ/rich4clojure
+# clojure from the ground up
 
-# clojure from the ground up notes
+## chapters
+
 - ch1 intro: https://aphyr.com/posts/301-clojure-from-the-ground-up-first-principles
 - ch2 types: https://aphyr.com/posts/302-clojure-from-the-ground-up-basic-types
 - ch3 functions: https://aphyr.com/posts/303-clojure-from-the-ground-up-functions
@@ -18,11 +25,9 @@ browser ide learning clojure guide --> https://github.com/PEZ/rich4clojure
 
 
 
-clojure cheatsheet - https://clojure.org/api/cheatsheet
 
-js -> clj translations - https://kanaka.github.io/clojurescript/web/synonym.html
+## notes
 
-how to set up clojure dev env for athensresearch.org code: https://handbook.athensresearch.org/community/get-involved/setup
 
 ---
 
