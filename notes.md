@@ -66,7 +66,15 @@ random quotes and notes expressing fundamental principles of programming languag
 > (on reduce): So another way to look at **reduce is like sticking a function between each pair of elements**. To see the reducing process in action, we can use reductions, which returns a sequence of all the intermediate states.
 
 #### Chap 5
-
+>```clojure
+> (defmacro ignore
+>    "Cancels the evaluation of an expression, returning nil instead."
+>    [expr]
+>    nil)
+> user=> (ignore (+ 1 2))
+> nil
+> ```
+> `defmacro` looks a lot like `defn`: it has a name, an optional documentation string, an argument vector, and a body–in this case, just `nil`. In this case, it looks like it simply ignored the expr `(+ 1 2)` and returned `nil`–but it’s actually deeper than that. **`(+ 1 2)` was never evaluated at all**.
 > ```clojure
 > user=> (def x 1)
 > #'user/x
@@ -77,7 +85,7 @@ random quotes and notes expressing fundamental principles of programming languag
 > user=> x
 > 1
 > ```
-> def should have defined `x` to be `2` no matter what–but that never happened. At macroexpansion time, the expression `(ignore (+ 1 2))` was replaced by the expression nil, which was then evaluated to `nil`. **Where functions rewrite values, macros rewrite code.**
+> `def` should have defined `x` to be `2` no matter what–but that never happened. At macroexpansion time, the expression `(ignore (+ 1 2))` was replaced by the expression nil, which was then evaluated to `nil`. **Where functions rewrite values, macros rewrite code.**
 
 ...
 
