@@ -18,7 +18,11 @@ browser ide learning clojure guide --> https://github.com/PEZ/rich4clojure
 
 
 
-### clojure cheatsheet - https://clojure.org/api/cheatsheet
+clojure cheatsheet - https://clojure.org/api/cheatsheet
+
+js -> clj translations - https://kanaka.github.io/clojurescript/web/synonym.html
+
+how to set up clojure dev env for athensresearch.org code: https://handbook.athensresearch.org/community/get-involved/setup
 
 ---
 
