@@ -7,7 +7,15 @@ browswer ide quick start intro --> https://gitpod.io/#https://github.com/PEZ/get
 browser ide learning clojure guide --> https://github.com/PEZ/rich4clojure
 
 # clojure from the ground up notes
-https://aphyr.com/posts/303-clojure-from-the-ground-up-functions
+ch1 intro: https://aphyr.com/posts/301-clojure-from-the-ground-up-first-principles
+ch2 types: https://aphyr.com/posts/302-clojure-from-the-ground-up-basic-types
+ch3 functions: https://aphyr.com/posts/303-clojure-from-the-ground-up-functions
+ch4 sequences: https://aphyr.com/posts/304-clojure-from-the-ground-up-sequences
+ch5 macros: https://aphyr.com/posts/305-clojure-from-the-ground-up-macros
+ch6 state (atoms): https://aphyr.com/posts/306-clojure-from-the-ground-up-state
+ch7 logistics: https://aphyr.com/posts/311-clojure-from-the-ground-up-logistics
+ch8 modeling: https://aphyr.com/posts/312-clojure-from-the-ground-up-modeling 
+
 
 
 ### clojure cheatsheet - https://clojure.org/api/cheatsheet
